@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+
     <link rel="stylesheet" href="./css/parallax.css"/>
     <link rel="stylesheet" href="./css/slider.css"/>   
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
+
 </head>
 <body>
     <div class="p-content">
@@ -32,30 +35,28 @@
                 <li>Core member of website development team for Techmarathon and responsible for creating and deploying Techmarathon and required sites along with my team members[2nd year]</li>
             </ul>
             </div>
-        
-        <div class="container">
-
-			<div class="arrow-left">
-				
-				<i class="fa fa-arrow-left"></i>
-
-			</div>
-			
-			<div class="slider-container">
-				
-				<div class="old-item"></div>
-
-				<div class="new-item"></div>
-
-			</div>
-
-			<div class="arrow-right">
-				
-				<i class="fa fa-arrow-right"></i>
-
-			</div>
-
-		</div>
+        <div class='details'>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="./img/IMG_9230.JPG" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/Spider-Man Homecoming (2017) Phone Wallpaper Moviemania.jpeg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="./img/IMG_9230.JPG" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev"  role="button" data-slide="prev" onClick="$('.carousel').carousel('prev')">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next"  role="button" data-slide="next" onClick="$('.carousel').carousel('next')">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+        </div>
+            
         <section id="sec2" class="p-content02">
             <div class="p-content_inner">
                 <h1>Experience</h1>
@@ -69,6 +70,7 @@
                 <li>
                     Created and deployed websites required for running techmarathon in online mode [2nd year]
                 </li>
+                <li>Managed Techmarthon Event Bamboozled where i was responsible for creating and managing Bamboozled site.</li>
                 
             </ul>
         </div>
@@ -136,9 +138,10 @@
         </section>
         <div class="details">
             <p>Reading Self Development, Books, Football, Chess, Watching Youtube videos related to Cosmos and space time, Ted Talks</p>
-            <p>Career Objective
+            
+            <p><br><strong>Career Objective :</strong> <br>
                 With the idea of bringing a great change in our technologies, making things simpler as they should be and building useful things that could help in people growth, I try to give my best everyday and contribute my time creating useful things.</p>
-                <h1>Still Want To Know More Contact Me and feel free to ask anything!</h1>
+                <h3><br>Still Want To Know More Contact Me and feel free to ask anything!</h3>
                 <i class="fa fa-instagram"></i>
                 <i class="fa fa-github"></i>
                 <i class="fa fa-github"></i>
@@ -167,5 +170,7 @@
     </div>
    
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
     <script src="./js/scripts.js"></script>
 </html>
