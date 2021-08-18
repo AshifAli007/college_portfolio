@@ -16,7 +16,6 @@ body {
   height: 100%;
   margin: auto;
   background: url('../img/Background/loginBackground.png') no-repeat center ;
-  /* background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%); */
   background-size: cover;
   position: relative;
   top: 0;
@@ -171,6 +170,14 @@ ul.social li:nth-child(5) a:hover .fab {
   }
   iframe {
     height: 300px;
+  }
+  ul.social li a {
+    width:45px;
+    height:45px;
+  }
+  ul.social li a .fab {
+
+    line-height: calc(60px - 25px);
   }
 
 }
