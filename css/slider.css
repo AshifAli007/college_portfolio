@@ -7,10 +7,8 @@
 .container {
   position: relative;
 	width: 100%;
-	height: 100%;
 	background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/old_moon.png");
 	background-repeat: repeat;
-
 	display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -18,6 +16,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+	margin: 5% auto;
 }
 
 .arrow-left, .arrow-right {
