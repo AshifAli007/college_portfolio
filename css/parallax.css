@@ -15,8 +15,10 @@ body {
   width: 100%;
   height: 100%;
   margin: auto;
-  background: url(https://images.pexels.com/photos/1083822/pexels-photo-1083822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center;
+  background: url('../img/Background/loginBackground.png') no-repeat center ;
+  /* background-image: linear-gradient( 135deg, #FFF6B7 10%, #F6416C 100%); */
   background-size: cover;
+  backface-visibility: 0.5;
   background-attachment: fixed;
   position: relative;
   top: 0;
@@ -27,8 +29,8 @@ body {
   width: 100%;
   height: 15%;
   margin: auto;
-  background: url(https://images.pexels.com/photos/1089451/pexels-photo-1089451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat 50% 50%;
-  background-size: cover;
+  /* background: url('../img/Background/matrix.jpg') no-repeat 50% 50%; */
+  background-image: linear-gradient( 109.6deg,  rgba(61,245,167,1) 11.2%, rgba(9,111,224,1) 91.1% );  background-size: cover;
   background-attachment: fixed;
   display: table;
 }
@@ -73,8 +75,8 @@ body {
   transition: all 0.2s ease-out;
 }
 .p-content_inner a:hover {
-  color: #bd7286;
-  border: 2px solid #bd7286;
+  color: #61ffea;
+  border: 2px solid #61ffea;
   transition: all 0.2s ease-in;
 }
 
@@ -82,18 +84,20 @@ iframe{
   box-shadow: 10px 10px 10px grey;
   margin-bottom: 5%;
   border-radius: 5px;
+  width:100%;
+  height:400px;
 }
 .details{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap:wrap;
-  margin: 5% 25%;
+  margin: 5% 20%;
   font-size: 25px;
   text-align: center;
 }
 .carousel-item{
-  height: 400px;
+  /* height: 400px; */
 }
 
 
@@ -133,7 +137,7 @@ ul.social li a:hover {
 }
 
 ul.social li a .fab {
-  widht: 100%;
+  width: 100%;
   height:100%;
   display:block;
   background: linear-gradient(0deg, #fff, #ddd);
@@ -163,3 +167,26 @@ ul.social li:nth-child(4) a:hover .fab {
 ul.social li:nth-child(5) a:hover .fab {
   color: #e4405f;
 }
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  .details {
+    margin: 5% 15%; 
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .details {
+    margin: 5% 5%;  
+  }
+  iframe {
+    height: 300px;
+  }
+}
+
+
